@@ -86,9 +86,14 @@ h4 {
 	padding-top: 15px;
 }
 
-h4 a:link, a:visited {
+h4 a:link {
 	color: #565656;
 }
+
+h4 a:visited {
+	color: #565656;	
+}
+
 
 label {
 	box-sizing: border-box;
@@ -98,6 +103,8 @@ label {
 input {
 	box-sizing: border-box;
 	border: 2px lightgray solid;
+	border-radius: 2px;
+	box-shadow: inset 0px 0px 0px 0px lightgray;
 	display: block;
 	font-size: 22px;
 	width: 100%;
